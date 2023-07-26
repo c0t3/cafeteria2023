@@ -1,0 +1,141 @@
+@media screen and (max-width:600px) {
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav1{
+        display:  flex;
+        justify-self: center;
+    }
+   
+    nav{
+        width: 100vw;
+        height: 10vh;
+        background: linear-gradient(to right, rgb(129, 84, 5), rgba(129, 84, 5, 0.527));
+    }
+
+    header{
+        margin-top: 100px;
+        height: 50vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+
+    .art-1, .art-2{
+        display: none;
+    }
+
+    .art-3{
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .art-4{
+        width: 50vw;
+        height: 20vh;
+        justify-content: center;
+        justify-self: center;
+        position: fixed;
+        right: 0;
+        top: 210px;
+    }
+
+    .art-5{
+        width: 50vw;
+        height: 20vh;
+        justify-content: center;
+        justify-self: center;
+        position: fixed;
+        right: 0;
+        bottom: 155px;        
+    }
+
+    footer{
+        width: 50vw;
+        height: 40vh;
+        
+    }
+
+
+    .h4, .h5{
+        font-family: LexendPeta-Black;
+        color: white;
+        font-size: 0.6em;
+        justify-self: center;
+    }
+
+    .p4, .p5{
+        font-family: LexendPeta-Medium;
+        font-size: 0.4em;
+        color: white;
+        justify-self: center;
+        justify-content: center;
+    }
+
+    .p4{
+        padding-left: 15px;
+
+    }
+
+    .p5{
+        padding-left: 15px;
+
+    }
+
+    .img1, .img2{
+        width: 20vw;
+        height: 20vh;
+        justify-items: center;
+    }
+
+    .contenedor1{
+        margin-top: 150px;
+        width: 100vw;
+        height: 40vh;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+    }
+    
+    .contenedor2{
+        width: 50vw;
+        height: 50vh;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        bottom: 0;
+        text-align: right;
+        margin-bottom: 100px;
+        padding-top: 0px;
+      
+    }
+    
+    .contenedor3{
+        background-color: #DDA15E;
+        width: 51vw;   
+        height: 40vh;
+        display:flex;
+        text-align: left;
+        position: fixed;
+        justify-items: left;
+        justify-content: center;
+        margin-top: 205px;
+        margin-right: 295px;
+    }
+
+    .pfooter{
+        font-family: LexendPeta-SemiBold;
+        font-size: 0.3em;
+        color: white;
+    }
+
+
+
+}
